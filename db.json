@@ -1,0 +1,841 @@
+{
+  "courses": [
+    {
+      "id": "3aac",
+      "courseName": "General English",
+      "courseDescription": "General purpose",
+      "arrangement": "1"
+    },
+    {
+      "courseName": "Toefl coursee",
+      "courseDescription": "for toeflt exam",
+      "arrangement": "2",
+      "id": "73c8"
+    },
+    {
+      "id": "f8c2",
+      "courseName": "test",
+      "courseDescription": "deneme",
+      "arrangement": "3"
+    }
+  ],
+  "levels": [
+    {
+      "id": "0b88",
+      "levelName": "Beginner",
+      "levelDescription": "for kids",
+      "arrangement": "1",
+      "courseId": "3aac"
+    },
+    {
+      "id": "6b27",
+      "levelName": "elementry",
+      "levelDescription": "for primary school student",
+      "arrangement": "2",
+      "courseId": "3aac"
+    },
+    {
+      "id": "a128",
+      "levelName": "Toefl 1-3",
+      "levelDescription": "toeflt starters",
+      "arrangement": "1",
+      "courseId": "73c8"
+    },
+    {
+      "id": "1960",
+      "levelName": "toefl 7-9",
+      "levelDescription": "for local",
+      "arrangement": "2",
+      "courseId": "73c8"
+    }
+  ],
+  "subjects": [
+    {
+      "subjectName": "asdasdaaa",
+      "subjectTitle": "asda",
+      "subjectDescription": "sdasdasd",
+      "courseId": "3aac",
+      "levelId": "0b88",
+      "arrangement": "asdasdasd",
+      "imagePath": "",
+      "id": "7c2a"
+    },
+    {
+      "id": "772c",
+      "subjectName": "asd",
+      "subjectTitle": "asd",
+      "subjectDescription": "asdas",
+      "courseId": "3aac",
+      "levelId": "0b88",
+      "arrangement": "dasd",
+      "imagePath": ""
+    }
+  ],
+  "lessons": [
+    {
+      "id": "e942",
+      "lessonName": "dasd",
+      "lessonTitle": "asd",
+      "lessonDescription": "asdasd",
+      "courseId": "3aac",
+      "levelId": "0b88",
+      "subjectId": "7c2a",
+      "arrangement": "asd",
+      "imagePath": ""
+    }
+  ],
+  "user": [
+    {
+      "id": "1",
+      "name": "ahmet açıksarı",
+      "email": "ahmet@ahmet.com",
+      "password": "123456",
+      "role": "admin",
+      "typeId": "0",
+      "package": "1"
+    }
+  ],
+  "reviews": [
+    {
+      "name": "da",
+      "description": "d",
+      "text": "dsssssd",
+      "point": "5",
+      "isActive": true,
+      "id": "7d2e"
+    },
+    {
+      "id": "c15f",
+      "name": "asdasd",
+      "description": "asdadasd",
+      "text": "asd",
+      "point": "4",
+      "isActive": true
+    }
+  ],
+  "banks": [
+    {
+      "bankname": "iş bankası",
+      "receivername": "heryerde ingilizce a.ş.\t",
+      "iban": "tr123123123123123",
+      "id": "028d"
+    }
+  ],
+  "paymentRequests": [
+    {
+      "id": "1",
+      "bankId": "1",
+      "packageId": 1,
+      "sectionId": 5,
+      "depositer": "ahmet açıksarı",
+      "text": "bugün parayı yatırdım",
+      "requestDate": "12-03-2024",
+      "updateDate": "13-03-2024",
+      "isActive": false,
+      "newUser": true,
+      "userId": "14",
+      "coupencode": "dasdasdasdasd"
+    }
+  ],
+  "packages": [
+    {
+      "id": "1e47",
+      "packagename": "Bronze School",
+      "packagedescription": "ufak kurslar, özel ders öğrencilerine özel",
+      "price": "300",
+      "studentCount": "10"
+    },
+    {
+      "id": "7b8e",
+      "packagename": "silver school",
+      "packagedescription": "kurs dersaneler için",
+      "price": "1000",
+      "studentCount": "100"
+    }
+  ],
+  "tickets": [
+    {
+      "id": "1",
+      "userId": "1",
+      "ticketTitle": "ticketTitle",
+      "ticketText": "ticketText",
+      "createdDate": "deneme",
+      "updateDate": "deneme",
+      "isFinished": true,
+      "answer": "Sorun Giderildi"
+    },
+    {
+      "id": "4afa",
+      "userId": 1,
+      "ticketTitle": "asdas",
+      "ticketText": "dasd",
+      "createdDate": "2024-06-24T09:05:57.249Z",
+      "updateDate": "2024-06-24T09:05:57.249Z",
+      "isFinished": false,
+      "answer": "bu bir cevap"
+    },
+    {
+      "id": "7181",
+      "userId": 1,
+      "ticketTitle": "dasd",
+      "ticketText": "asdas",
+      "createdDate": "2024-06-24T09:07:25.174Z",
+      "updateDate": "2024-06-24T09:07:25.174Z",
+      "isFinished": false,
+      "answer": "bu bir cevap"
+    },
+    {
+      "id": "96ea",
+      "userId": 4,
+      "ticketTitle": "dsa",
+      "ticketText": "asd",
+      "createdDate": "2024-06-24T09:07:37.301Z",
+      "updateDate": "2024-06-24T09:07:37.301Z",
+      "isFinished": false,
+      "answer": "bu bir cevap"
+    }
+  ],
+  "uploadFile": [
+    {
+      "id": "1",
+      "file": "asdasd",
+      "fileName": "as"
+    }
+  ],
+  "classes": [
+    {
+      "classname": "sdaaaaa",
+      "courseId": "3aac",
+      "levelId": "",
+      "schoolId": 1,
+      "id": "66f6"
+    },
+    {
+      "id": "8ae7",
+      "classname": "deneme",
+      "courseId": "3aac",
+      "levelId": "0b88",
+      "schoolId": 1
+    }
+  ],
+  "schools": [
+    {
+      "id": "1",
+      "schoolname": "deneme",
+      "managerId": 1
+    },
+    {
+      "schoolname": "denemee",
+      "managerId": 1,
+      "id": "d163"
+    }
+  ],
+  "teachers": [
+    {
+      "id": "1",
+      "teachername": "deneme",
+      "schoolId": "1",
+      "userId": "1"
+    }
+  ],
+  "coupens": [
+    {
+      "id": "3712",
+      "ratio": "22",
+      "coupenCode": "Ypq*EGGu",
+      "isUsed": false
+    },
+    {
+      "id": "c237",
+      "ratio": "22",
+      "coupenCode": "N*pU1bnJ",
+      "isUsed": false
+    },
+    {
+      "id": "102b",
+      "ratio": "22",
+      "coupenCode": "kIJF@@@j",
+      "isUsed": false
+    },
+    {
+      "id": "641e",
+      "ratio": "100",
+      "coupenCode": "%)*$VekZ@",
+      "isUsed": false
+    },
+    {
+      "id": "f26c",
+      "ratio": "100",
+      "coupenCode": "iw4W5joj9",
+      "isUsed": false
+    },
+    {
+      "id": "645f",
+      "ratio": "100",
+      "coupenCode": "FeQ)k8gr@",
+      "isUsed": false
+    },
+    {
+      "id": "6aa9",
+      "ratio": "100",
+      "coupenCode": "L($YMeR5s",
+      "isUsed": false
+    },
+    {
+      "id": "851f",
+      "ratio": "100",
+      "coupenCode": "YYZX(uLAD",
+      "isUsed": false
+    },
+    {
+      "id": "b310",
+      "ratio": "100",
+      "coupenCode": "%4V2*3Rq#",
+      "isUsed": false
+    },
+    {
+      "id": "7f14",
+      "ratio": "100",
+      "coupenCode": "P3#IX5uAV",
+      "isUsed": false
+    },
+    {
+      "id": "4d4e",
+      "ratio": "100",
+      "coupenCode": "gXj5t4Niv",
+      "isUsed": false
+    },
+    {
+      "id": "d1bf",
+      "ratio": "100",
+      "coupenCode": "m(i#lTsVT",
+      "isUsed": false
+    },
+    {
+      "id": "8535",
+      "ratio": "100",
+      "coupenCode": "v)jkSRUbD",
+      "isUsed": false
+    },
+    {
+      "id": "fe8c",
+      "ratio": "100",
+      "coupenCode": "qTP9&T*0&",
+      "isUsed": false
+    },
+    {
+      "id": "d392",
+      "ratio": "100",
+      "coupenCode": "pS*OIXKh7",
+      "isUsed": false
+    },
+    {
+      "id": "b229",
+      "ratio": "100",
+      "coupenCode": "cAiP^m7l*",
+      "isUsed": false
+    },
+    {
+      "id": "1268",
+      "ratio": "100",
+      "coupenCode": "EyGHF1jhc",
+      "isUsed": false
+    },
+    {
+      "id": "c0dd",
+      "ratio": "100",
+      "coupenCode": "P%Ul)WA4k",
+      "isUsed": false
+    },
+    {
+      "id": "890a",
+      "ratio": "100",
+      "coupenCode": "shN2aQ3Bi",
+      "isUsed": false
+    },
+    {
+      "id": "f9f4",
+      "ratio": "100",
+      "coupenCode": "ScL*AbfCi",
+      "isUsed": false
+    },
+    {
+      "id": "0b0b",
+      "ratio": "100",
+      "coupenCode": "ruEnLZJzc",
+      "isUsed": false
+    },
+    {
+      "id": "588b",
+      "ratio": "100",
+      "coupenCode": "xjwOq*zQf",
+      "isUsed": false
+    },
+    {
+      "id": "6c1c",
+      "ratio": "100",
+      "coupenCode": "0rRHr!epP",
+      "isUsed": false
+    },
+    {
+      "id": "64c0",
+      "ratio": "100",
+      "coupenCode": "pmo(VY%dT",
+      "isUsed": false
+    },
+    {
+      "id": "9e42",
+      "ratio": "100",
+      "coupenCode": "qx2lbd34R",
+      "isUsed": false
+    },
+    {
+      "id": "a8e3",
+      "ratio": "100",
+      "coupenCode": "r*nC6$a8*",
+      "isUsed": false
+    },
+    {
+      "id": "5e41",
+      "ratio": "100",
+      "coupenCode": "C2bK8sNKX",
+      "isUsed": false
+    },
+    {
+      "id": "ba34",
+      "ratio": "100",
+      "coupenCode": "nhBBtAr6X",
+      "isUsed": false
+    },
+    {
+      "id": "ac8a",
+      "ratio": "100",
+      "coupenCode": "h%C%QJWpG",
+      "isUsed": false
+    },
+    {
+      "id": "4b2a",
+      "ratio": "100",
+      "coupenCode": ")apG^2261",
+      "isUsed": false
+    },
+    {
+      "id": "f3fc",
+      "ratio": "100",
+      "coupenCode": "aTNNa#&pf",
+      "isUsed": false
+    },
+    {
+      "id": "057c",
+      "ratio": "100",
+      "coupenCode": "g%Zq6hQ(b",
+      "isUsed": false
+    },
+    {
+      "id": "fc68",
+      "ratio": "100",
+      "coupenCode": "ZV9lywU5v",
+      "isUsed": false
+    },
+    {
+      "id": "9843",
+      "ratio": "100",
+      "coupenCode": "59FZbdwkC",
+      "isUsed": false
+    },
+    {
+      "id": "877e",
+      "ratio": "100",
+      "coupenCode": "lFC6Sc^7F",
+      "isUsed": false
+    },
+    {
+      "id": "98b1",
+      "ratio": "100",
+      "coupenCode": "15%bWi&&Y",
+      "isUsed": false
+    },
+    {
+      "id": "771d",
+      "ratio": "100",
+      "coupenCode": "1#0^Jf*@Y",
+      "isUsed": false
+    },
+    {
+      "id": "de2b",
+      "ratio": "100",
+      "coupenCode": "SfrLs4$zO",
+      "isUsed": false
+    },
+    {
+      "id": "ed54",
+      "ratio": "100",
+      "coupenCode": "7IXCYBM6e",
+      "isUsed": false
+    },
+    {
+      "id": "8230",
+      "ratio": "100",
+      "coupenCode": "t0(OX9xkR",
+      "isUsed": false
+    },
+    {
+      "id": "43b2",
+      "ratio": "100",
+      "coupenCode": "0Fw4YBDUb",
+      "isUsed": false
+    },
+    {
+      "id": "2cbe",
+      "ratio": "100",
+      "coupenCode": "oBa9Fpv3e",
+      "isUsed": false
+    },
+    {
+      "id": "cf2d",
+      "ratio": "100",
+      "coupenCode": "$gSCPjMkg",
+      "isUsed": false
+    },
+    {
+      "id": "3e35",
+      "ratio": "100",
+      "coupenCode": "3a5bbVO9Y",
+      "isUsed": false
+    },
+    {
+      "id": "466d",
+      "ratio": "100",
+      "coupenCode": "wZ4LVK3ku",
+      "isUsed": false
+    },
+    {
+      "id": "b044",
+      "ratio": "100",
+      "coupenCode": "S1XeK6F1%",
+      "isUsed": false
+    },
+    {
+      "id": "3b15",
+      "ratio": "100",
+      "coupenCode": "oMCWv$5Ij",
+      "isUsed": false
+    },
+    {
+      "id": "b063",
+      "ratio": "100",
+      "coupenCode": "zJzmcK!*M",
+      "isUsed": false
+    },
+    {
+      "id": "a9eb",
+      "ratio": "100",
+      "coupenCode": "73j5z4ao^",
+      "isUsed": false
+    },
+    {
+      "id": "2c75",
+      "ratio": "100",
+      "coupenCode": "HIk)dF5o%",
+      "isUsed": false
+    },
+    {
+      "id": "c244",
+      "ratio": "100",
+      "coupenCode": "9NMHs6wXf",
+      "isUsed": false
+    },
+    {
+      "id": "3808",
+      "ratio": "100",
+      "coupenCode": "Y049lAfsJ",
+      "isUsed": false
+    },
+    {
+      "id": "ec5f",
+      "ratio": "100",
+      "coupenCode": "uvqxWS*CP",
+      "isUsed": false
+    },
+    {
+      "id": "c8bc",
+      "ratio": "100",
+      "coupenCode": "^hyG9oJTlB)I",
+      "isUsed": false
+    },
+    {
+      "id": "25e3",
+      "ratio": "100",
+      "coupenCode": "XKWhS1Vmcc^v",
+      "isUsed": false
+    },
+    {
+      "id": "f809",
+      "ratio": "100",
+      "coupenCode": "1axWkHnOf)*h",
+      "isUsed": false
+    }
+  ],
+  "mainPackages": [
+    {
+      "id": "1",
+      "packageName": "Starter",
+      "packagePrice": "20$",
+      "Details": [
+        {
+          "detailId": 1,
+          "text": "5 User",
+          "isActive": true
+        },
+        {
+          "detailId": 2,
+          "text": "All UI Components",
+          "isActive": true
+        }
+      ]
+    }
+  ],
+  "socialMedia": [
+    {
+      "youtube": "https://www.youtube.com/heryerdeingilizce.com\n",
+      "id": "1",
+      "twitter": "https://www.twitter.com/heryerdeingilizce.com",
+      "instagram": "instagram.com/heryerdeingilizce"
+    }
+  ],
+  "contact": [
+    {
+      "id": "1",
+      "title": "Bize ulaşınn",
+      "phonenumber": "+90 555 555 5555",
+      "email": "test@test.com",
+      "address": "New York, USA"
+    }
+  ],
+  "coreFeatures": [
+    {
+      "title": "Bizi sektörde öncü kılan özelliklerimiz",
+      "subtitle": "Temel Özelliklerimiz",
+      "features": [
+        {
+          "id": 1,
+          "text": "Dünya Çapında Meraklı Ve Yaratıcı ",
+          "isActive": true
+        },
+        {
+          "id": 2,
+          "text": "Dünya Çapında Meraklı Ve Yaratıcı Dünya Çapında Meraklı Ve Yaratıcı Bireylerden Oluşan Bir Toplulukla Etkileşime Geçin.",
+          "isActive": true
+        },
+        {
+          "id": 3,
+          "text": "Dünya Çapında Meraklı Ve Yaratıcı Dünya Çapında Meraklı Ve Yaratıcı Bireylerden Oluşan Bir Toplulukla Etkileşime Geçin.",
+          "isActive": true
+        },
+        {
+          "id": 4,
+          "text": "Dünya Çapında Meraklı Ve Yaratıcı Bireylerden Oluşan Bir Toplulukla Etkileşime Geçin.",
+          "isActive": true
+        },
+        {
+          "id": 5,
+          "text": "Dünya Çapında Meraklı Ve Yaratıcı Bireylerden Oluşan Bir Toplulukla Etkileşime Geçin.",
+          "isActive": true
+        },
+        {
+          "id": 6,
+          "text": "Dünya Çapında Meraklı Ve Yaratıcı Bireylerden Oluşan Bir Toplulukla Etkileşime Geçin.",
+          "isActive": true
+        },
+        {
+          "id": 7,
+          "text": "Dünya Çapında Meraklı Ve Yaratıcı Bireylerden Oluşan Bir Toplulukla Etkileşime Geçin.",
+          "isActive": true
+        },
+        {
+          "id": 8,
+          "text": "Dünya Çapında Meraklı Ve Yaratıcı Bireylerden Oluşan Bir Toplulukla Etkileşime Geçin.",
+          "isActive": true
+        }
+      ],
+      "id": "1"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "1",
+      "isActive": "aktif",
+      "title": "Kullanıcı Yorumları",
+      "subTitle": "Kullanıcılarımızın Sistem Hakkında ki Yorumları",
+      "text": "Sitemizin kullanıcıları sistemimizi aktif olarak kullanmakta ve çok memnundurlar. Bizlere değerli yorumları yapan bazı kullanıcılarımızın yorumları aşağıda listelenmiştir. Geç kalmadan aramıza sende katıl!"
+    }
+  ],
+  "mainpagetestimonials": [
+    {
+      "id": "1",
+      "star": "5",
+      "message": "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "nameSurname": "sabo ahmet",
+      "info": "Founder @UIdeck"
+    },
+    {
+      "id": "2",
+      "star": "5",
+      "message": "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "nameSurname": "sabo ali",
+      "info": "Founder @UIdeck"
+    },
+    {
+      "id": "3",
+      "star": "5",
+      "message": "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "nameSurname": "Sabo Masties",
+      "info": "Founder Bridge"
+    }
+  ],
+  "usage": [
+    {
+      "title": "SISTEM KULLANIMIIII",
+      "videoLink": "https://player.vimeo.com/video/346802568?h=fe9c8a401&color=e89152",
+      "paragraphs": [
+        {
+          "id": 1,
+          "text": "Lorem ipsum sit amet Lorem ipsum sit amet Lorem ipsum sit amet Lorem ipsum sit amet.",
+          "isActive": true
+        },
+        {
+          "id": 2,
+          "text": "Lorem Ipsum 'Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...' 'There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain...' Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce cursus est non fringilla auctor. Nam hendrerit scelerisque elementum. Nam rhoncus a tortor quis mollis. Integer vitae dapibus urna, in efficitur metus. Praesent ex arcu, molestie sit amet consectetur non, convallis vel arcu. Nulla nec augue quis dui posuere vulputate. Duis a augue at ex molestie tincidunt et et sem. Vestibulum consequat, nisl eu bibendum tincidunt, massa tellus consequat orci, sed pulvinar nisl sem vitae nisi. Sed risus metus, vehicula eget eros nec, viverra viverra metus. Sed convallis metus consectetur aliquet maximus.",
+          "isActive": true
+        },
+        {
+          "id": 3,
+          "text": "Proin pulvinar, purus vitae ultrices mollis, quam nunc finibus tortor, et eleifend ligula ligula id risus. Mauris in blandit ante. Praesent sed iaculis enim. Nunc ut tincidunt mauris. Curabitur non imperdiet mi. Nulla at laoreet felis. Integer sem ante, porta a sagittis quis, porttitor ac nibh. Etiam facilisis imperdiet tortor. Morbi ultrices, felis non porttitor semper, lacus ipsum rutrum erat, eget varius massa lacus a ante. Integer sed consequat neque, ut lobortis enim. Integer porttitor massa et semper mattis. Sed placerat eleifend euismod. Nunc vel ex dolor. Quisque est mauris, porta ut velit at, rhoncus varius lorem. Aliquam efficitur sodales diam at malesuada. Proin aliquam efficitur rhoncus. Phasellus elementum risus non nisi auctor rutrum. Integer porttitor massa posuere felis fermentum, sed scelerisque ligula vulputate. Nulla tincidunt feugiat tellus eu consequat. In vel velit auctor, luctus ipsum id, iaculis nisl. Nam vestibulum sollicitudin quam, sed maximus nunc vehicula vitae. Etiam orci nibh, ultricies sit amet purus ut, dapibus iaculis sem. Lorem ipsum dolor sit amet, consectetur adipiscing elit. ",
+          "isActive": true
+        },
+        {
+          "id": 4,
+          "text": "Aenean scelerisque velit quis turpis hendrerit dictum. Mauris facilisis commodo sapien, consequat elementum erat malesuada mattis. Pellentesque molestie ex vitae libero dapibus cursus. Etiam tellus diam, consequat in sem at, tempor consectetur mauris. Nullam sed dui metus. Aenean eleifend est augue, vitae viverra lacus convallis nec. Maecenas eget nibh magna. Mauris posuere efficitur eleifend. Mauris ut lorem in quam elementum viverra. Lorem ipsum dolor sit amet, con sectetur adipiscing elit. Aenean scelerisque velit quis turpis hendrerit dictum. Mauris facilisis commodo sapien, consequat elementum erat malesuada mattis. Pellentesque molestie ex vitae libero dapibus cursus. Etiam tellus diam, consequat in sem at, tempor consectetur mauris. Nullam sed dui metus. Aenean eleifend est augue, vitae viverra lacus convallis nec. Maecenas eget nibh magna. Mauris posuere efficitur eleifend. Mauris ut lorem in quam elementum viverra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean scelerisque velit quis turpis hendrerit dictum. Mauris facilisis commodo sapien, consequat elementum erat malesuada mattis. Pellentesque molestie ex vitae libero dapibus cursus. Etiam tellus diam, consequat in sem at, tempor consectetur mauris. Nullam sed dui metus. Aenean eleifend est augue, vitae viverra lacus convallis nec. Maecenas eget nibh magna. Mauris posuere efficitur eleifend. Mauris ut lorem in quam elementum viverra.",
+          "isActive": true
+        }
+      ],
+      "id": "1"
+    }
+  ],
+  "customerCount": [
+    {
+      "count": "333",
+      "id": "1"
+    }
+  ],
+  "aboutus": [
+    {
+      "title": "Learn More About Us\n",
+      "mainText": "Engage with a worldwide community of inquisitive and imaginative individuals.Engage with a worldwide community of inquisitive and imaginative individuals.Engage with a worldwide community of inquisitive and imaginative individuals.",
+      "imageUrl": "images/images/about-img.jpg",
+      "subTexts": [
+        {
+          "id": 1,
+          "text": "Engage with a worldwide community "
+        },
+        {
+          "id": 2,
+          "text": "Engage with a worldwide community Engage with a worldwide community Engage with a worldwide community "
+        },
+        {
+          "id": 3,
+          "text": "Learn a skill of your choice from the experts around the world from various industries"
+        }
+      ],
+      "id": "1"
+    }
+  ],
+  "contactUs": [
+    {
+      "id": "1",
+      "isActive": "aktif"
+    }
+  ],
+  "notRegister": [
+    {
+      "id": "1",
+      "isActive": "aktif",
+      "title": "Henüz Üye Değil Misiniz??",
+      "subtitle": "Hemen Aramıza Katılın"
+    }
+  ],
+  "mainpagepackageSettings": [
+    {
+      "id": "1",
+      "isActive": "aktif",
+      "title": "Üyelik Paketlerimiz",
+      "subtitle": "Bireysel ve kurumsal çözümlerimiz. Paket detayları hakkında bilgi almak için lütfen iletişime geçiniz."
+    }
+  ],
+  "getContacts": [
+    {
+      "id": "1",
+      "nameSurname": "Ahmet Açıksarı",
+      "email": "ahmet@ahmet.com",
+      "message": "deneme",
+      "isActive": false
+    },
+    {
+      "id": "9c36",
+      "nameSurname": "test test",
+      "email": "dasda",
+      "message": "dasdasd",
+      "isActive": true
+    },
+    {
+      "id": "64b8",
+      "nameSurname": "dasdasd dasdas",
+      "email": "aa@aa.com",
+      "message": "asdasdas",
+      "isActive": true
+    },
+    {
+      "id": "3904",
+      "nameSurname": "dasdas",
+      "email": "asdas@asdasda.com",
+      "message": "dasdas",
+      "isActive": true
+    },
+    {
+      "id": "a1ec",
+      "nameSurname": "dasdasd",
+      "email": "asdas@asdasda.com",
+      "message": "İletişime Geç!\nİletişime Geç!\nİletişime Geç!\nİletişime Geç!\nİletişime Geç!\nİletişime Geç!\nİletişime Geç!\nİletişime Geç!\n",
+      "isActive": true
+    },
+    {
+      "id": "ccb9",
+      "nameSurname": "sdgfsdg",
+      "email": "sdgsdgsd@asd.com",
+      "message": "gsdgsdg",
+      "isActive": true
+    }
+  ],
+  "mainpagepackages": [
+    {
+      "id": "1",
+      "title": "Bireysel Paket",
+      "price": "299 ₺",
+      "features1": "Binlerce Soru Çeşidi",
+      "features2": "Binlerce Test Çeşidi",
+      "features3": "İnteraktif testler",
+      "features4": "Özel Ders",
+      "features5": "Grup Ders"
+    },
+    {
+      "id": "2",
+      "title": "Kurumsal Paket",
+      "price": "999 ₺",
+      "features1": "Kurs Oluşturma",
+      "features2": "Öğretmen Öğrenci Oluşturma",
+      "features3": "Ödevlendirme",
+      "features4": "Öğrenci Takibi",
+      "features5": "Öğrenci Raporlama"
+    }
+  ]
+}
